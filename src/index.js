@@ -9,25 +9,37 @@ import thunkMiddleware from 'redux-thunk';
 import Catsapp from './cats/containers/Catsapp';
 import Presapp from './presidents/containers/PresApp';
 import { searchPresidents, requestPresidents, changeParty } from './presidents/reducers';
+import { requestBreedsRed, changeBreed, requestBreedChange } from './cats/reducers';
 import 'tachyons';
 import * as serviceWorker from './serviceWorker';
 // import registerServiceWorker from './registerServiceWorker'
 
 const logger = createLogger();
-const rootReducer = combineReducers({ searchPresidents, requestPresidents, changeParty });
-const store = createStore(rootReducer, applyMiddleware(thunkMiddleware, logger));
+const presReducer = combineReducers({ searchPresidents,
+                                        requestPresidents,
+                                        changeParty,
+                                     });
+
+const presStore = createStore(presReducer, applyMiddleware(thunkMiddleware, logger));
+
+const catsReducer = combineReducers({ requestBreedsRed, changeBreed, requestBreedChange });
+
+const catsStore = createStore(catsReducer, applyMiddleware(thunkMiddleware, logger));
 
 
 ReactDOM.render(
             <div>
                 <div className='fl w-50-l w-100-m vh-100-l'>
                     {/* <App/> */}
-                    <Provider store={store}>
+                    <Provider store={presStore}>
                         <Presapp/>
                     </Provider>
                 </div>
                 <div className='fl w-50-l w-100-m vh-100-l'>
-                    <Catsapp/>
+                    <Provider  store={catsStore}>
+                        <Catsapp/>
+                    </Provider>
+                    
                 </div>
                 
             </div>  

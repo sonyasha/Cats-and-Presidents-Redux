@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: rgb(217, 217, 218);
-  background-image: url('./components/backgrounds/greyfloral_@2X.png');
+  background-image: url('./common/greyfloral_@2X.png');
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;

@@ -5,7 +5,7 @@ class SelectBreed extends React.Component {
         const breeds = this.props.breeds;
         
         const options = Object.keys(breeds).map(key => 
-            <option value={key} key={breeds[key]}>{key}</option>
+            <option value={breeds[key]} key={breeds[key]}>{key}</option>
         )
         return (
             <div className='pa1'>
