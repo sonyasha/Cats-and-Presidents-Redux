@@ -31,14 +31,14 @@ const mapDispatchToProps = dispatch => {
 
 class Catsapp extends React.Component {
     
-    constructor() {
-        super();
-        this.state = {
+    // constructor() {
+    //     super();
+    //     this.state = {
             // breeds: {},
             // selectedbreed: '',
             // breed_data: '',
-        }
-    };
+    //     }
+    // };
 
     //check the status of response
     checkStatus = (response) => {
