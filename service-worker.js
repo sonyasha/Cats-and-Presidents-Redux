@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Cats-and-Presidents-Redux/precache-manifest.bec4c4a4c444f1c3ca7dc3423a0e9359.js"
+  "/Cats-and-Presidents-Redux/precache-manifest.069b9faa951a4d14ee838fe77b1cc590.js"
 );
 
 workbox.clientsClaim();

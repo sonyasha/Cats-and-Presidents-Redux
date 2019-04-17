@@ -16,23 +16,23 @@ self.__precacheManifest = [
     "url": "/Cats-and-Presidents-Redux/static/js/runtime~main.7029ce2b.js"
   },
   {
-    "revision": "da17de4e613c37ab37f8",
-    "url": "/Cats-and-Presidents-Redux/static/js/main.61629c68.chunk.js"
+    "revision": "8b959692f7c7be823dd0",
+    "url": "/Cats-and-Presidents-Redux/static/js/main.6146802a.chunk.js"
   },
   {
-    "revision": "6a8374dd94b302c9b7a0",
-    "url": "/Cats-and-Presidents-Redux/static/js/2.e0375a9f.chunk.js"
+    "revision": "2055c96e1b3a0d847cb5",
+    "url": "/Cats-and-Presidents-Redux/static/js/2.d1c08846.chunk.js"
   },
   {
-    "revision": "da17de4e613c37ab37f8",
+    "revision": "8b959692f7c7be823dd0",
     "url": "/Cats-and-Presidents-Redux/static/css/main.09c6ea59.chunk.css"
   },
   {
-    "revision": "6a8374dd94b302c9b7a0",
+    "revision": "2055c96e1b3a0d847cb5",
     "url": "/Cats-and-Presidents-Redux/static/css/2.5ffe944c.chunk.css"
   },
   {
-    "revision": "4e7dd77df7d425d6e6a978d28d8d1d7f",
+    "revision": "1139f28f80e428ac5aa3c14f0efd6517",
     "url": "/Cats-and-Presidents-Redux/index.html"
   }
 ];
